@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Задание 13</title>
+</head>
+
+<body>
+    <script>
+        function mouseOn() {
+            let img = document.getElementById("Путин");
+            img.style.width = "1000px";
+            img.style.height = "1000px";
+        }
+        function mouseOff() {
+            let img = document.getElementById("Путин");
+            img.style.width = "500px";
+            img.style.height = "500px";
+        }
+    </script>
+    <img src="Путин.jpg" style="width: 500px; height: 500px;" id="Путин" alt="Путин" onmouseover=mouseOn()
+        onmouseout=mouseOff()>
+</body>
+
+</html>
